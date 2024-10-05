@@ -54,4 +54,5 @@ After a lot of logging and calls with school IT staff, we realised some schools 
 ### Concurrent mutation of data
 Teachers liked to have the portal open while students were completing their assessments and this would sometimes result in data overwrites when either side saved without refreshing after the other had made changes. Although never released, a proof of concept solution was built using Supabase's realtime subscriptions that prevented the teacher and a student working on the same screen where there was a danger of data being overwritten.
 
+![screenshot](./screenshot.png)
 
